@@ -1,0 +1,322 @@
+@charset "UTF-8";
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0E0E0E;
+  position: relative;
+}
+
+.container {
+  width: 96%;
+  margin: 0 auto;
+  padding: 20px 30px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+}
+
+body {
+  color: #F3F4F4;
+  font-family: "GT America Trial Bl It";
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Canela Web";
+  font-style: normal;
+  font-size: 118px;
+  font-weight: 400;
+  color: inherit;
+  line-height: 1;
+}
+
+p {
+  font-family: inherit;
+  font-style: normal;
+  font-size: inherit;
+  font-weight: 400;
+  color: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.ronded-btn, .main-section__learn--more span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.card > div {
+  width: 50%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding: 0 50px;
+}
+.card__image {
+  margin-right: 50px;
+}
+.card__info > h5, .card__info > h2, .card__info > p, .card__info > div {
+  margin-bottom: 20px;
+}
+.card__info > h5 {
+  font-family: "GT America Trial Bl It";
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  color: #F3F4F4;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.card__info > h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58px;
+}
+.card__info > p {
+  font-size: inherit;
+  line-height: 27px;
+}
+.card__info > .min__card-info .min__card--icon {
+  display: inline-block;
+  position: relative;
+  background-color: #656F77;
+  color: white;
+  cursor: pointer;
+  padding: 10px 13px;
+  font-size: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.card__info > .min__card-info .min__card--icon:hover {
+  background-color: #F3F4F4;
+  color: #0E0E0E;
+}
+.card__info > .min__card-info .min__card--text {
+  font-family: "GT America Trial Bl It";
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.navigation__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__item--logo img {
+  cursor: pointer;
+  width: 16vw;
+  margin-left: -15px;
+  position: relative;
+  top: -20px;
+}
+
+.navigation__item--buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation__item--buttons .navigation__item--button {
+  background-color: #0E0E0E;
+  color: #ffffff;
+  width: 175px;
+  padding: 10% 5%;
+  position: relative;
+  top: -20px;
+  right: -55px;
+}
+.navigation__item--buttons .navigation__item--button:hover {
+  background-color: rgb(42, 41, 41);
+}
+.navigation__item--buttons i, .navigation__item--buttons span {
+  font-size: 18px;
+}
+.navigation__item--buttons i {
+  margin-right: 15px;
+}
+.navigation__item--buttons .nav__button--1 {
+  border-right: 1px solid white;
+}
+
+.header {
+  background-image: url(url);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.277), black), url("../../images/091024_Findings_Walt_0197-copy.jpg");
+  min-height: 185vh;
+  width: 100%;
+}
+
+.main-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 150px;
+  width: 100%;
+  height: 100%;
+}
+.main-section__items {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.main-section__items .line {
+  content: "";
+  position: absolute;
+  top: -150px;
+  left: 0;
+  width: 50%;
+  height: 130px;
+  border-right: 1px solid rgba(186, 197, 198, 0.8784313725);
+}
+.main-section__items h2 {
+  position: relative;
+  top: 100px;
+  left: -25px;
+}
+.main-section__items h2 + p {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.main-section__learn--more {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main-section__learn--more span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #DF072E;
+  margin-right: 10px;
+}
+.main-section__learn--more span:hover {
+  background-color: #F3F4F4;
+}
+.main-section__learn--more span:hover i {
+  color: #0E0E0E;
+}
+.main-section__learn--more p {
+  text-align: left;
+  color: #ffffff;
+}
+.main-section__items--2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-section__items--2 span + span {
+  border-left: 1px solid rgba(186, 197, 198, 0.8784313725);
+  height: 280px;
+  width: 50%;
+}
+.main-section__items--2 .text {
+  margin-top: 100px;
+  margin-left: 25px;
+}
+.main-section__items--2 .text-2 {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.main-section__items--2 .text-2 i {
+  background-color: #656F77;
+  padding: 11px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.main-section__items--2 .text-2 i:hover {
+  background-color: #F3F4F4;
+  color: #0E0E0E;
+}
+
+.harvard__medical .card__movies {
+  background-image: url("/images/Screenshot-2025-04-03-at-3.04.35 PM.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.768)), url("/images/Screenshot-2025-04-03-at-3.04.35 PM.png");
+  position: relative;
+  height: 300px;
+  margin-left: 70px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.harvard__medical .card__movie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  right: 150px;
+}
+.harvard__medical .card__movie:hover .movie__play {
+  border: 1px solid white;
+}
+.harvard__medical .card__movie:hover .movie__play .play-icon {
+  background-color: white;
+}
+.harvard__medical .card__movie:hover .movie__play .play-icon i {
+  color: black;
+}
+.harvard__medical .card__movie .movie__play {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  border: 1px solid red;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.harvard__medical .card__movie .movie__play .play-icon {
+  padding: 10px;
+  background-color: #DF072E;
+  border-radius: 50%;
+}
+.harvard__medical .card__movie .movie__text {
+  font-size: 32px;
+}
+
+/*# sourceMappingURL=main.css.map */

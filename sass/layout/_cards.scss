@@ -1,0 +1,77 @@
+.ronded-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card > {
+    div {
+        width: 50%;
+    }
+}
+.card {
+    @include flex(row, space-between, center);
+    margin-top: 100px;
+    padding: 0 50px;
+    &__image {
+        margin-right: 50px;
+    }
+    &__info > {
+        h5, h2, p, div {
+            margin-bottom: 20px;
+        }
+        h5 {
+            font: {
+                family: $gt-america-trail;
+                size: 14px;
+                weight: 500;
+            }
+            font-style: normal;
+            color: $color-whiter;
+            text-transform: uppercase;
+            line-height:1.5;
+            letter-spacing: 1px;
+        }
+        h2 {
+            font: {
+                size: 48px;
+                weight: 500;
+            }
+            line-height: 58px;
+        }
+        p {
+            font: {
+                size: inherit;
+            }
+            line-height: 27px;
+        }
+        .min__card-info {
+            .min__card--icon {
+                display: inline-block;
+                position: relative;
+                background-color: #656F77;
+                color: white;
+                cursor: pointer;
+                padding: 10px 13px;
+                font-size: 20px;
+                margin-right: 10px;
+                border-radius: 50%;
+                &:hover {
+                    background-color: $color-whiter;
+                    color: $color-bg-blacker;
+                }
+            }
+            .min__card--text {
+                font: {
+                    family: $gt-america-trail;
+                    size: 18px;
+                    weight: 600;
+                }
+                color: $color-white;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
+}
+

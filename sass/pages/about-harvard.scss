@@ -1,0 +1,86 @@
+// Main setion styles
+.main-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+    &__items {
+        margin-bottom: 50px;
+        text-align: center;
+        & .line {
+            content: '';
+                position: absolute;
+                top: -150px;
+                left: 0;
+                width: 50%;
+                height: 130px;
+                border-right: 1px solid #bac5c6e0;
+        }
+        & h2 {
+            position: relative;
+            top: 100px;
+            left: -25px;
+        }
+        & h2 {
+            + p {
+                margin-top: 120px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+        &__learn--more {
+            @include flex(row, center, center);
+        & span {
+            @include flex(row, center, center);
+            @extend .ronded-btn;
+            background-color: $color-redder-btn;
+            margin-right: 10px;
+            &:hover {
+                background-color: $color-whiter;
+                i {
+                    color: $color-bg-blacker;
+                }
+            }
+        }        
+        & p {
+            text-align: left;
+            color: $color-white;
+        }
+        }
+    &__items--2 {
+        @include flex(row, space-between, center);
+        & span {
+            + span {
+                border-left: 1px solid #bac5c6e0;
+                height: 280px;
+                width: 50%;
+            }
+            
+        }
+        .text {
+            margin-top: 100px;
+            margin-left: 25px;
+        }
+        .text-2 {
+            margin-top: 30px;
+            margin-left: 25px;
+            i {
+                background-color: $color-gray-btn;
+                padding: 11px;
+                border-radius: 50%;
+                margin-right: 10px;
+                cursor: pointer;
+                &:hover {
+                    background-color: $color-whiter;
+                    color: $color-bg-blacker;
+                }
+            }
+        }
+        
+    }
+}
+// Main setion styles
+
+

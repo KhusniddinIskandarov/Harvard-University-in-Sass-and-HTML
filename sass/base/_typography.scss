@@ -1,0 +1,30 @@
+body {
+    color: $color-whiter;
+    font-family: $gt-america-trail;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: $color-white;
+}
+
+h2 {
+    font-family: $canela;
+    font-style: normal;
+    font-size: 118px;
+    font-weight: 400;
+    color: inherit;
+    line-height: 1;
+}
+
+p {
+    font-family: inherit;
+    font-style: normal;
+    font-size: inherit;
+    font-weight: 400;
+    color: inherit;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+

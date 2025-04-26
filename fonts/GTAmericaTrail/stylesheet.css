@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'GT America Trial Bl It';
+    src: url('GTAmericaTrial-BlIt.woff2') format('woff2'),
+        url('GTAmericaTrial-BlIt.woff') format('woff'),
+        url('GTAmericaTrial-BlIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Trial Bd';
+    src: url('GTAmericaTrial-Bd.woff2') format('woff2'),
+        url('GTAmericaTrial-Bd.woff') format('woff'),
+        url('GTAmericaTrial-Bd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Trial Bl';
+    src: url('GTAmericaTrial-Bl.woff2') format('woff2'),
+        url('GTAmericaTrial-Bl.woff') format('woff'),
+        url('GTAmericaTrial-Bl.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Trial Lt It';
+    src: url('GTAmericaTrial-LtIt.woff2') format('woff2'),
+        url('GTAmericaTrial-LtIt.woff') format('woff'),
+        url('GTAmericaTrial-LtIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Trial Bd It';
+    src: url('GTAmericaTrial-BdIt.woff2') format('woff2'),
+        url('GTAmericaTrial-BdIt.woff') format('woff'),
+        url('GTAmericaTrial-BdIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Trial Lt';
+    src: url('GTAmericaTrial-Lt.woff2') format('woff2'),
+        url('GTAmericaTrial-Lt.woff') format('woff'),
+        url('GTAmericaTrial-Lt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Trial Md It';
+    src: url('GTAmericaTrial-MdIt.woff2') format('woff2'),
+        url('GTAmericaTrial-MdIt.woff') format('woff'),
+        url('GTAmericaTrial-MdIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Trial Th';
+    src: url('GTAmericaTrial-Th.woff2') format('woff2'),
+        url('GTAmericaTrial-Th.woff') format('woff'),
+        url('GTAmericaTrial-Th.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Trial U Lt It';
+    src: url('GTAmericaTrial-ULtIt.woff2') format('woff2'),
+        url('GTAmericaTrial-ULtIt.woff') format('woff'),
+        url('GTAmericaTrial-ULtIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Trial Th It';
+    src: url('GTAmericaTrial-ThIt.woff2') format('woff2'),
+        url('GTAmericaTrial-ThIt.woff') format('woff'),
+        url('GTAmericaTrial-ThIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Trial U Lt';
+    src: url('GTAmericaTrial-ULt.woff2') format('woff2'),
+        url('GTAmericaTrial-ULt.woff') format('woff'),
+        url('GTAmericaTrial-ULt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Trial Rg It';
+    src: url('GTAmericaTrial-RgIt.woff2') format('woff2'),
+        url('GTAmericaTrial-RgIt.woff') format('woff'),
+        url('GTAmericaTrial-RgIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Trial Md';
+    src: url('GTAmericaTrial-Md.woff2') format('woff2'),
+        url('GTAmericaTrial-Md.woff') format('woff'),
+        url('GTAmericaTrial-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America Trial Rg';
+    src: url('GTAmericaTrial-Rg.woff2') format('woff2'),
+        url('GTAmericaTrial-Rg.woff') format('woff'),
+        url('GTAmericaTrial-Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

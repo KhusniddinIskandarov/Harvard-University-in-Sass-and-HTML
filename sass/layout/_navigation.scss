@@ -1,0 +1,36 @@
+.navigation__items {
+    @include flex(row, space-between, center);
+}
+.navigation__item--logo {
+    img {
+        cursor: pointer;
+        width: 16vw;
+        margin-left: -15px;
+        position: relative;
+        top: -20px;
+    }
+}
+.navigation__item--buttons {
+    @include flex(row, space-between, center);
+    .navigation__item--button {
+        background-color: $color-bg-blacker;
+        color: $color-white;
+        width: 175px;
+        padding: 10% 5%;
+        position: relative;
+        top: -20px;
+        right: -55px;
+        &:hover {
+            background-color: rgb(42, 41, 41);
+        }
+    }
+    i, span {
+        font-size: 18px;
+    }
+    i {
+        margin-right: 15px;
+    }
+    .nav__button--1 {
+        border-right: 1px solid white;
+    }
+}   

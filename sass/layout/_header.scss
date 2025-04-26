@@ -1,0 +1,6 @@
+.header {
+    @include bgImage(url);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.277), black ), url('../../images/091024_Findings_Walt_0197-copy.jpg');
+    min-height: 185vh;
+    width: 100%;
+}
