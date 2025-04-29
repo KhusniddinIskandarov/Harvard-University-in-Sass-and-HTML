@@ -1,0 +1,138 @@
+.inporving-lives {
+    display: block;
+    position: relative;
+    margin: 150px 60px 0;
+    margin-right: 0;
+    h2 {
+        font-size: 64px;
+        margin-bottom: 50px;
+    }
+    .lives {
+        display: inherit;
+        position: inherit;
+        .lives__group {
+            display: inline-block;
+            width: 55%;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            h3,h2,p {
+                margin-bottom: 15px;
+            }
+            div {
+                overflow: hidden;
+            }
+            img {
+                vertical-align: middle;
+                transition: all 0.4s ease 0s;
+            }
+            h3 {
+                margin-top: 20px;
+            }
+            h2 {
+                position: relative;
+                font-size: 50px;
+                font-weight: 500;
+                &::after {
+                    content: "";
+                    content: "";
+                    position: absolute;
+                    background-color: $color-whiter;
+                    height: 3px;
+                    width: 0;
+                    left: 0;
+                    bottom: -10px;
+                    transition: 0.3s;
+                }
+            }
+            &:hover {
+                img {
+                    transform: scale(1.1);
+                    overflow: hidden;
+                }
+                h2 {
+                    &::after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .cards {
+            display: inline-block;
+            width: 45%;
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            right: 15px;
+            .card {
+                margin-top: 0;
+                margin-bottom: 50px;
+                padding: 0;
+                padding-bottom: 30px;
+                margin: 0 50px 30px;
+                transition: all 0.4s ease 0s;
+
+                border-bottom: 1px solid white;
+                @include flex(row, flex-start,flex-start );
+                cursor: pointer;
+                .card__lives--info {
+                    width: 68%;
+                    box-sizing: border-box;
+                    h5 {
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        letter-spacing: 0;
+                        line-height: 27px;
+                    }
+                    h4 {
+                        position: relative;
+                        margin: 10px 0;
+                        font-size: 20px;
+                        font-weight: bold;
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            background-color: $color-whiter;
+                            height: 3px;
+                            width: 0;
+                            left: 0;
+                            bottom: -10px;
+                            transition: 0.3s;
+                        }
+                    }
+                     p {
+                        letter-spacing: 0;
+                        font-weight: 400;
+                     }
+                }
+                .card__lives--img {
+                    width: 32%;
+                    margin-left: 50px;
+                    margin-right: 0;
+                    box-sizing: border-box;
+                    img {
+
+                        transition: all 0.4s ease 0s;
+                    }
+                    overflow: hidden;
+
+                }
+                &:hover {
+                        h4 {
+                            &::after {
+                                width: 100%;
+                            }
+                        }
+                        .card__lives--img {
+                            img {
+                                transform: scale(1.1);
+                            }
+                        }
+                }
+            }
+        }
+    }
+}

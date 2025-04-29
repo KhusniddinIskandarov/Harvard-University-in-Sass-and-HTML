@@ -408,9 +408,6 @@ p {
   bottom: -10px;
   transition: 0.3s;
 }
-.section__card .card--info h3:hover::after {
-  width: 100%;
-}
 .section__card .card--info p {
   margin-top: 15px;
   font-weight: 500;
@@ -446,6 +443,138 @@ p {
 .section__card:hover .card--info .card__icon {
   background-color: white;
   color: #1E1E1E;
+}
+.section__card:hover .card--info h3::after {
+  width: 100%;
+}
+
+.inporving-lives {
+  display: block;
+  position: relative;
+  margin: 150px 60px 0;
+  margin-right: 0;
+}
+.inporving-lives h2 {
+  font-size: 64px;
+  margin-bottom: 50px;
+}
+.inporving-lives .lives {
+  display: inherit;
+  position: inherit;
+}
+.inporving-lives .lives .lives__group {
+  display: inline-block;
+  width: 55%;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+}
+.inporving-lives .lives .lives__group h3, .inporving-lives .lives .lives__group h2, .inporving-lives .lives .lives__group p {
+  margin-bottom: 15px;
+}
+.inporving-lives .lives .lives__group div {
+  overflow: hidden;
+}
+.inporving-lives .lives .lives__group img {
+  vertical-align: middle;
+  transition: all 0.4s ease 0s;
+}
+.inporving-lives .lives .lives__group h3 {
+  margin-top: 20px;
+}
+.inporving-lives .lives .lives__group h2 {
+  position: relative;
+  font-size: 50px;
+  font-weight: 500;
+}
+.inporving-lives .lives .lives__group h2::after {
+  content: "";
+  content: "";
+  position: absolute;
+  background-color: #F3F4F4;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+.inporving-lives .lives .lives__group:hover img {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.inporving-lives .lives .lives__group:hover h2::after {
+  width: 100%;
+}
+.inporving-lives .lives .cards {
+  display: inline-block;
+  width: 45%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+.inporving-lives .lives .cards .card {
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  padding-bottom: 30px;
+  margin: 0 50px 30px;
+  transition: all 0.4s ease 0s;
+  border-bottom: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.inporving-lives .lives .cards .card .card__lives--info {
+  width: 68%;
+  box-sizing: border-box;
+}
+.inporving-lives .lives .cards .card .card__lives--info h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+.inporving-lives .lives .cards .card .card__lives--info h4 {
+  position: relative;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.inporving-lives .lives .cards .card .card__lives--info h4::after {
+  content: "";
+  position: absolute;
+  background-color: #F3F4F4;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+.inporving-lives .lives .cards .card .card__lives--info p {
+  letter-spacing: 0;
+  font-weight: 400;
+}
+.inporving-lives .lives .cards .card .card__lives--img {
+  width: 32%;
+  margin-left: 50px;
+  margin-right: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.inporving-lives .lives .cards .card .card__lives--img img {
+  transition: all 0.4s ease 0s;
+}
+.inporving-lives .lives .cards .card:hover h4::after {
+  width: 100%;
+}
+.inporving-lives .lives .cards .card:hover .card__lives--img img {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=main.css.map */

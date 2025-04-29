@@ -83,9 +83,6 @@
                 bottom: -10px;
                 transition: 0.3s;
             }
-            &:hover::after {
-                    width: 100%;
-            }
         }
         p{
             margin-top: 15px;
@@ -124,6 +121,11 @@
             .card__icon {
                 background-color: white;
                 color: #1E1E1E;
+            }
+            h3 {
+                &::after {
+                        width: 100%;
+                }
             }
         }
     }
