@@ -1,0 +1,56 @@
+.multiple-alzheimer {
+    position: relative;
+    margin-top: 150px;
+    .multiple__cards {
+        width: 100%;
+        padding: 0 70px;
+        margin-bottom: 0;
+        @include flex(row, space-between, flex-start);
+        flex-wrap: wrap;
+        .multiple__card {
+            width: 28%;
+            padding-bottom: 50px;
+            h3 {
+                margin-bottom: 20px;
+                font-size: 26px;
+                font-weight: 600;
+            }
+            img {
+                margin-bottom: 25px;
+                width: 140%;
+            }
+            .image-3 {
+                height: 280px;
+            }
+            p {
+                font-size: 20px;
+                a {
+                    text-decoration: underline;
+                    font-weight: 600;
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+        }
+        .multiple__card-4 {
+            position: relative;
+            top: -110px;
+        }
+        .multiple__card-6 {
+            position: relative;
+            top: -90px;
+        }
+    }
+    .multiple__linear {
+        margin-top: -50px;
+        width: 100%;
+        @include flex(row, center, center);
+        .linear {
+            content: "";
+            width: 50%;
+            height: 1px;
+            background-color: $color-whiter;
+        }
+    }
+}
