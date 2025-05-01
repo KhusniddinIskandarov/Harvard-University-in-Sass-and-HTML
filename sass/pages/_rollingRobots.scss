@@ -1,0 +1,43 @@
+.rolling-robots {
+    margin: 50px 0;
+    position: relative;
+    @include flex(row, center, center);
+    .robots__image {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.923), rgba(255, 255, 255, 0)),
+        url('/images/Robobee-e1473081706400-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        max-width: 1260px;
+        width: 1220px;
+        max-height: 820px;
+        height: 920px;
+    }
+    .robots__card {
+        position: relative;
+        top: 200px;
+        left: 90px;
+        width: 550px;
+        h3 {
+            margin-bottom: 15px;
+            font-size: 48px;
+            letter-spacing: 1px;
+        }
+        p {
+            display: block;
+            position: relative;
+            font-size: 19px;
+            &:nth-child(3){
+                margin: 25px 0;
+            };
+            a {
+                text-decoration: underline;
+                font-weight: 600;
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+        
+    }
+}
