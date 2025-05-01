@@ -6,6 +6,7 @@
         .brand__card {
             @include flex(column, center, center);
             margin: 0 -100px;
+            margin-left: -190px;
             h5 {
                 font-size: 20px;
                 font-weight: bold;

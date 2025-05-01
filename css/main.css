@@ -982,6 +982,7 @@ p {
   justify-content: center;
   align-items: center;
   margin: 0 -100px;
+  margin-left: -190px;
 }
 .security__brand .brand__cards .brand__card h5 {
   font-size: 20px;
@@ -1011,6 +1012,39 @@ p {
 }
 .security__brand .brand__cards .brand__card p:hover {
   color: white;
+}
+
+.havard-university__footer {
+  margin-top: 80px;
+}
+.havard-university__footer .footer__group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 50px;
+  margin-right: 0;
+}
+.havard-university__footer .footer__group p {
+  color: #8996A0;
+}
+.havard-university__footer .footer__group img {
+  position: relative;
+  top: -50px;
+  width: 18%;
+  cursor: pointer;
+}
+.havard-university__footer .footer__group .footer__social--networks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.havard-university__footer .footer__group .footer__social--networks i {
+  position: relative;
+  margin-right: 50px;
+  font-size: 40px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

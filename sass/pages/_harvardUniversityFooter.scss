@@ -1,0 +1,26 @@
+.havard-university__footer {
+    margin-top: 80px;
+    .footer__group {
+        @include flex(row, space-around, center);
+        margin: 0 50px;
+        margin-right: 0;
+        p {
+            color: $color-text-footer;
+        }
+        img {
+            position: relative;
+            top: -50px;
+            width: 18%;
+            cursor: pointer;
+        }
+        .footer__social--networks {
+            @include flex(row, space-evenly, center);
+            i {
+                position: relative;
+                margin-right: 50px;
+                font-size: 40px;
+                cursor: pointer;
+            }
+        }
+    }
+}
