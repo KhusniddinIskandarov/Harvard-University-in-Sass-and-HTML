@@ -1,0 +1,53 @@
+.related-focus {
+    margin: 270px 60px 0;
+    .focus__topics {
+        margin: 0 20px;
+        @include flex(row, space-between, flex-start);
+        .focus__topic {
+            width: 50%;
+            h4 {
+                font-size: 16px;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+            h3 {
+                margin-top: 20px;
+                font-size: 56px;
+                font-weight: 600;
+            }
+            p {
+                display: inline-block;
+                position: relative;
+                margin: 10px 0;
+                font-size: 26px;
+                letter-spacing: 0;
+                font-weight: bold;
+                cursor: pointer;
+               
+                &::after {
+                    content: '';
+                    position: absolute;
+                    background-color: $color-whiter;
+                    opacity: 0.7;
+                    height: 1px;
+                    width: 0;
+                    left: 0;
+                    bottom: 5px;
+                    transition: 0.3s;
+                }
+                &:hover::after{
+                    width: 100%;
+                }
+            }
+            .practice__linear {
+                display: inline-block;
+                position: relative;
+                content: "";
+                width: 98%;
+                height: 0.5px;
+                background-color: #fff;
+                opacity: 0.3;
+            }
+        }
+    }
+}
