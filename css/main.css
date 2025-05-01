@@ -685,11 +685,71 @@ p {
   color: red;
 }
 
+.faculty-sciences {
+  margin-top: 150px;
+}
 .faculty-sciences .min__card-info {
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: center;
+}
+
+.repairing-damage {
+  margin: 130px 20px 0;
+}
+.repairing-damage .card__movies {
+  background-image: url("/images/vision-human-eye2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.768)), url("/images/vision-human-eye2.jpg");
+  position: relative;
+  height: 300px;
+  margin-left: 70px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.repairing-damage .card__movie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+.repairing-damage .card__movie:hover .movie__play {
+  border: 1px solid white;
+}
+.repairing-damage .card__movie:hover .movie__play .play-icon {
+  background-color: white;
+}
+.repairing-damage .card__movie:hover .movie__play .play-icon i {
+  color: black;
+}
+.repairing-damage .card__movie .movie__play {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  border: 1px solid red;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.repairing-damage .card__movie .movie__play .play-icon {
+  padding: 10px;
+  background-color: #DF072E;
+  border-radius: 50%;
+}
+.repairing-damage .card__movie .movie__text {
+  display: block;
+  position: relative;
+  font-size: 32px;
+  width: 200%;
 }
 
 /*# sourceMappingURL=main.css.map */
