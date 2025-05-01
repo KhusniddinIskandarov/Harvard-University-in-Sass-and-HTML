@@ -689,6 +689,7 @@ p {
   margin-top: 150px;
 }
 .faculty-sciences .min__card-info {
+  margin-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -750,6 +751,17 @@ p {
   position: relative;
   font-size: 32px;
   width: 200%;
+}
+
+.harvard-forest {
+  margin-top: 150px;
+}
+.harvard-forest .min__card-info {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
