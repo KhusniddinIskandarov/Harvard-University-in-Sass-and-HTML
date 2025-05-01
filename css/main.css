@@ -889,4 +889,25 @@ p {
   width: 100%;
 }
 
+.progress-practice {
+  margin: 80px 60px 0;
+}
+.progress-practice h3 {
+  font-size: 56px;
+  position: relative;
+}
+.progress-practice .practice__linear {
+  margin-top: 30px;
+  content: "";
+  width: 98%;
+  height: 4.5px;
+  background-color: #fff;
+}
+.progress-practice .exploring-the__brain {
+  margin-top: -20px;
+}
+.progress-practice .exploring-the__brain .min__card--icon {
+  background-color: #DF072E;
+}
+
 /*# sourceMappingURL=main.css.map */

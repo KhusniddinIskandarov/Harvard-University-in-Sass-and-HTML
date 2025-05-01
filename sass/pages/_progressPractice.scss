@@ -1,0 +1,20 @@
+.progress-practice {
+    margin: 80px 60px 0;
+    h3 {
+        font-size: 56px;
+        position: relative;
+    }
+    .practice__linear {
+        margin-top: 30px;
+        content: "";
+        width: 98%;
+        height: 4.5px;
+        background-color: #fff;
+    }
+   .exploring-the__brain {
+    margin-top: -20px;
+    .min__card--icon {
+        background-color: $color-redder-btn;
+    }
+   }
+}
