@@ -1,0 +1,139 @@
+/* Harvard Graduate School section */
+.the__peoples-2 {
+    margin-top: 120px;
+    .people {
+        padding-left: 50px;
+        margin-bottom: -60px;
+        @include flex(row, space-between, center);
+        h2 {
+            width: 50%;
+            font-size: 62px;
+        }
+    }
+}
+/* Harvard Graduate School section */
+
+/* One row is 3 cards */
+.section__cards {
+    position: relative;
+    top: 0;
+    margin: 50px 30px 0;
+}
+.section__cards--group > {
+    a {
+        display: inline-block;
+        width: 29%;
+        margin-right: 20px;
+        margin-left: 25px;
+        box-sizing: border-box;
+        margin-top: 50px;
+    }
+}
+.section__card {
+    position: relative;
+    height: inherit;
+    overflow: hidden;
+    &:nth-child(1) {
+        .card--min {
+            position: absolute;
+            top: 84%;
+        }
+    }
+    &:nth-child(2) {
+        .card--min {
+            position: absolute;
+            top: 84%;
+        }
+    }
+    &:nth-child(3) {
+        .card--min {
+            position: absolute;
+            top: 84%;
+        }
+    }
+    .card--media {
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: 260px;
+            vertical-align: middle;
+            transition: all 0.4s ease 0s;
+        }
+    }
+    .card--info {
+        margin-top: -5px;
+        background-color: #1E1E1E;
+        height: 500px;
+        padding: 50px 32px 0;
+        h3 {
+            display: inline-block;
+            position: relative;
+            font-size: 36px;
+            line-height: 1.15;
+            font-weight: 400;
+            letter-spacing: -.1px;
+            &::after {
+                content: "";
+                position: absolute;
+                background-color: $color-whiter;
+                height: 3px;
+                width: 0;
+                left: 0;
+                bottom: -10px;
+                transition: 0.3s;
+            }
+        }
+        p{
+            margin-top: 15px;
+            font-weight: 500;
+            font-size: 19px;
+        }
+        
+        p {
+            + div {
+                position: relative;
+                @include flex(row, space-between, center);
+                .card__icon {
+                    @include flex(row, center, center);
+                    background-color: $color-redder-btn;
+                    padding: 12px;
+                    font-size: 20px;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                }
+                span {
+                    + span {
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    &:hover {
+        .card--media {
+            img {
+                transform: scale(1.1);
+            }
+        }
+        .card--info {
+            background-color: rgb(80, 80, 80);
+            .card__icon {
+                background-color: white;
+                color: #1E1E1E;
+            }
+            h3 {
+                &::after {
+                        width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
