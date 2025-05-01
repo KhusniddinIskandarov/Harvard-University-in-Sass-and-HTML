@@ -1,0 +1,40 @@
+.security__brand {
+    margin-top: 150px;
+    .brand__cards {
+        @include flex(row, space-evenly, center);
+        text-align: center;
+        .brand__card {
+            @include flex(column, center, center);
+            margin: 0 -100px;
+            h5 {
+                font-size: 20px;
+                font-weight: bold;
+                color: white;
+                margin-bottom: 20px;
+            }
+            p {
+                display: inline-block;
+                position: relative;
+                margin-bottom: 10px;
+                color: $color-text-footer;
+                cursor: pointer;
+                transition: 0.3s;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    height: 2px;
+                    width: 0;
+                    border-bottom: 1px solid white;
+                }
+                &:hover::after {
+                    width: 100%;
+                }
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+}
