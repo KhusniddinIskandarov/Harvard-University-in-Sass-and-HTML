@@ -1,0 +1,5 @@
+.faculty-sciences {
+    .min__card-info {
+        @include flex(row, start,center);
+    }
+}

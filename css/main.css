@@ -685,4 +685,11 @@ p {
   color: red;
 }
 
+.faculty-sciences .min__card-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
 /*# sourceMappingURL=main.css.map */
